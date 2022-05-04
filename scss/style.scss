@@ -1,6 +1,9 @@
 @use 'variables' as *;
 @use 'reset';
 
+#landing{
+  background-color: $bg--color;
+}
 body {
   font-family: $font-stack--reading;
 }
