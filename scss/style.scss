@@ -66,78 +66,7 @@ body {
   border-radius: 10px;
 }
 
-@media (max-width: 390px){
-  .landing h1{ 
-    margin-left: 65px;
-    margin-right: 65px;
-  }
-  
-  .toggle-button{
-    display: flex;
-  }
 
-  .navbar-links{
-    display: none;
-  }
-
-  .navbar{
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .navbar-links ul{
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .navbar-links li{
-    text-align: center;
-  }
-
-  .navbar-links li a{
-    padding: .5rem 1rem;
-  }
-
-  .navbar-links.active{
-    display: flex;
-  }
-}
-
-@media (max-width: 820px){
-  .landing h1{
-    margin-left: 50px;
-  }
-
-  .toggle-button{
-    display: flex;
-  }
-
-  .navbar-links{
-    display: none;
-  }
-
-  .navbar{
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .navbar-links ul{
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .navbar-links li{
-    text-align: center;
-  }
-
-  .navbar-links li a{
-    padding: .5rem 1rem;
-  }
-
-  .navbar-links.active{
-    display: flex;
-  }
-}
 
 .landing h1{
   color: $text--color;
@@ -266,4 +195,105 @@ footer{
   margin-right: 100px;
   font-size: 24px;
   line-height: 48px;
+}
+
+.socials{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 100px;
+  
+  img{
+  width: 250px;
+  height: 250px;
+  margin-top: 30px;
+  }
+}
+
+.contacts{
+  text-align: center;
+  font-size: 24px;
+  margin-top: 100px;
+}
+
+.first{
+  margin-top: 50px;
+}
+.four{
+  margin-top: 50px;
+}
+
+//iphone breakpoint
+@media (max-width: 390px){
+  .landing h1{ 
+    margin-left: 65px;
+    margin-right: 65px;
+  }
+  
+  .toggle-button{
+    display: flex;
+  }
+
+  .navbar-links{
+    display: none;
+  }
+
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links li{
+    text-align: center;
+  }
+
+  .navbar-links li a{
+    padding: .5rem 1rem;
+  }
+
+  .navbar-links.active{
+    display: flex;
+  }
+}
+
+//ipad/tablet breakpoint
+@media (max-width: 820px){
+  .landing h1{
+    margin-left: 50px;
+  }
+
+  .toggle-button{
+    display: flex;
+  }
+
+  .navbar-links{
+    display: none;
+  }
+
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links li{
+    text-align: center;
+  }
+
+  .navbar-links li a{
+    padding: .5rem 1rem;
+  }
+
+  .navbar-links.active{
+    display: flex;
+  }
 }
